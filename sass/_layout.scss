@@ -1,0 +1,22 @@
+@use "core";
+body {
+  padding: 1rem;
+  font-family: core.$main-font, sans-serif;
+}
+*button {
+  cursor: pointer;
+}
+*button:active {
+  opacity: 0.9;
+}
+.title {
+  font-size: 2.5rem;
+}
+
+//class added with js addEventListener
+.error {
+  background-color: core.$color-red-btn;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+//Google Fonts Poopins 400 and 700
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+//resets
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//color variables
+$background-color: #fff;
+$background-color-desktop: #61d5d0;
+$background-color-todo: #f2f2f2;
+$color-text: #080309;
+$color-text-light: #939496;
+$color-purple-btn: #8e49e7;
+$color-red-btn: #e74d3d;
+$main-font: "Poppins";

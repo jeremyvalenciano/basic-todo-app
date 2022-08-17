@@ -1,0 +1,84 @@
+@use "core";
+//Form component
+.container {
+  .add-task {
+    display: flex;
+    justify-content: space-between;
+    input {
+      font-size: 1rem;
+      padding: 10px 15px;
+      width: 100%;
+      border: 1px solid gray;
+      height: 50px;
+      border-radius: 4px;
+    }
+    button {
+      margin-left: 12px;
+      background-color: core.$color-purple-btn;
+      color: white;
+      border: 1px solid core.$color-purple-btn;
+      padding: 5px 10px;
+      border-radius: 4px;
+      height: 50px;
+      vertical-align: middle;
+      .material-symbols-outlined {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+//Task list component
+.container {
+  padding: 1rem;
+  background-color: aliceblue;
+
+  .tasks {
+    margin-top: 15px;
+    padding: 0px;
+    &__list {
+      list-style: none;
+      margin: 0;
+    }
+    .todo {
+      border-radius: 4px;
+      margin-bottom: 8px;
+      font-size: 20px;
+      background-color: core.$background-color-todo;
+      display: flex;
+      justify-content: space-between;
+      p {
+        padding: 8px 15px;
+      }
+      button {
+        background-color: core.$color-red-btn;
+        border: none;
+        height: auto;
+        padding: 0px;
+        border-radius: 0px 4px 4px 0px;
+        color: white;
+        span {
+          padding: 10px 15px;
+          font-size: 3 2px;
+        }
+      }
+    }
+  }
+}
+//info component
+.info {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    margin-left: 12px;
+    background-color: core.$color-purple-btn;
+    color: white;
+    border: 1px solid core.$color-purple-btn;
+    padding: 5px 15px;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
